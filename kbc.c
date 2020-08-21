@@ -172,7 +172,7 @@ int g=0,x=0,y=0,z=0,s;
 	int r=0;
 	kbc y[20];
 	FILE *f;
-	f=fopen("abc.txt","r");
+	f=fopen("question.txt","r");
 	fread(y,sizeof(y),1,f);
 	structure();
 	setfillstyle(SOLID_FILL,GREEN);
