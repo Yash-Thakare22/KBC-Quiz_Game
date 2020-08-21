@@ -32,8 +32,8 @@ int g=0,x=0,y=0,z=0,s;
   void optionB(int ans);
   void optionC(int ans);
   void optionD(int ans);
-      void main()
-      {
+  void main()
+  {
       int gdriver=DETECT,gmode,u;
       initgraph(&gdriver,&gmode,"C:\\TURBOC3\\BGI");
       for(u=0;u<300;u++)
@@ -1220,6 +1220,4 @@ for(i=0;i<10;i++)
        setfillstyle(SOLID_FILL,GREEN);
        floodfill(350,400,getmaxcolor());
        delay(500);
-       }
-
-
+ }
