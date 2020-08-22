@@ -1,4 +1,4 @@
-Q.1 Which is the largest passenger airliner in                                 // Question 1 
+Q.1 Which is the largest passenger airliner in                                // Question 1 
     the world ?
 A: Beoing 767
 B: Ilyushin IL-96
@@ -11,101 +11,158 @@ A: Mount Rushmore
 B: Kanchenjunga
 C: Mount Everest
 D: K2
-C: Mount Everest
-Q.2
-
-A:
-B:
-C:
-D:
-
-Q.2
-
-A:
-B:
-C:
-D:
-
-Q.3
-
-A:
-B:
-C:
-D:
-
-Q.3
-
-A:
-B:
-C:
-D:
-
-Q.4
-
-A:
-B:
-C:
-D:
-
-Q.4
-
-A:
-B:
-C:
-D:
-
-Q.5
-
-A:
-B:
-C:
-D:
-
-Q.5
-
-A:
-B:
-C:
-D:
-
-Q.6
-
-A:
-B:
-C:
-D:
-
-Q.6
-
-A:
-B:
-C:
-D:
-
-Q.7
-
-A:
-B:
-C:
-D:
-
-Q.7
-
-A:
-B:
-C:
-D:
-
-Q.8
-
-A:
-B:
-C:
-D:
-
-Q.8
-
-A:
-B:
-C:
-D:
+C: Mount Everest                                                              //Correct Answer
+Q.1 Name the annual fair of Rajasthan that is                                 // Question 1 
+    famous for its camel trading?
+A: Kumbha Mela
+B: Sonepar Mela
+C: Pushkar Mela
+D: SurajKund Mela
+C: Pushkar Mela                                                               //Correct Answer
+Q.2 Lata Mangeshkar was awarded the Padma Bhushan                             // Question 2
+    in which year?
+A: 1959
+B: 1969
+C: 1979
+D: 1989
+B: 1969                                                                       //Correct Answer
+Q.2 Which of these cities has the maximum number                              // Question 2
+    of historical monuments?
+A: Kolkata
+B: Delhi
+C: Mumbai
+D: Punjab
+B: Delhi                                                                      //Correct Answer
+Q.2 The wife of which of these India sports                                   // Question 2
+    persons has represent India in basketball?
+A: Dinesh Karthik
+B: Ishant Sharma
+C: Milkha Singh
+D: P Gopichand
+B: Ishant Sharma                                                              //Correct Answer
+Q.3 In which year was the '@' chosen for its use                              // Question 3
+    in e-mail addresses?
+A: 1972
+B: 1976
+C: 1984
+D: 1980
+A: 1972                                                                       //Correct Answer
+Q.3 Which textile mill did Jamshedji Nusserwanji                              // Question 3
+    Tata established in 1869?
+A: Alexandra
+B: Empress
+C: Lancashire
+D: Victoria
+A: Alexandra                                                                  //Correct Answer
+Q.3 After whom is the Centrigade system of                                    // Question 3
+    temperature measurement named?
+A: Anders Celsius
+B: Daniel Fahrenheit
+C: Lord Kelvin
+D: Gabrile Centi
+A: Anders Celsius                                                             //Correct Answer
+Q.4 Which Mughal emperor was named after a sufi                               // Question 4
+    saint at the time of his birth?
+A: Akbar
+B: Shah Jahan
+C: Jahangir
+D: Aurangzeb
+C:Jahangir                                                                    //Correct Answer
+Q.4 In which year will we celebrate the 150th                                 // Question 4
+    birth anniversary of Mahatma Gandhi?
+A: 2021
+B: 2023
+C: 2019
+D: 2020
+C: 2019                                                                       //Correct Answer                                                                             
+Q.4 Which was the 1st non Test playing country                                // Question 4
+    beat India in an international match?
+A: Canada
+B: West Indies
+C: Sri Lanka
+D: Zimbabwe
+C: Sri Lanka                                                                  //Correct Answer
+Q.5 Who is the Indian woman to win an Asian                                   // Question 5                                  
+    Games gold in 400m run?
+A: M.L.Valsamma
+B: P.T.Usha
+C: K.Malleshwari
+D: Kamaljit Sandhu
+D: Kamaljit Sandhu                                                            //Correct Answer
+Q.5 What was the active medium used in the first                              // Question 5
+    working laser ever constructed ?
+A: Diamond block
+B: He-Ne gas
+C: CO2 gas
+D: Ruby rod
+D: Ruby rod                                                                   //Correct Answer
+Q.5 Which country follows the United State and                                // Question 5
+    and China in total no of Internet users ?
+A: Germany
+B: U.K.
+C: France
+D: Japan
+D: Japan                                                                      //Correct Answer
+Q.6 Name the bird that migrates from the North                                // Question 6
+    to South pole and back?
+A: Swallow
+B: Arctic tern
+C: Crane
+D: Pengiun
+B: Arctic tern                                                                //Correct Answer
+Q.6 Which of following countries won final of                                 // Question 6
+    triangular cicket series in durban in Feb 1997?
+A: India
+B: South Africa
+C: New Zealand
+D: Zimbabwe
+B: South Africa                                                               //Correct Answer
+Q.6 Name this Indian Tennis player who has turned                             // Question 6
+    Hollywood filmmaker?
+A: Leander Peas
+B: Ashok Amitraj
+C: Vijay Amritraj
+D: Mahesh Bhupathi
+B: Ashok Amitraj                                                              //Correct Answer
+Q.7 The International Museum Day(IMD) is observed                             // Question 7
+    on which date?
+A: May 19
+B: May 21
+C: May 22
+D: May 18
+D: May 18                                                                     //Correct Answer
+Q.7 Who has won the 2017 Formula 1 Spanish Grand                              // Question 7
+    Prix ?
+A: Sebaatin Vettel
+B: Nico Rosberg
+C: Valtteri Bottas
+D: Lewis Hamilton
+D: May 18                                                                     //Correct Answer
+Q.7 Which scientist discovered the radioactive                                // Question 7
+    active radium ?
+A: Isaac Newton
+B: Albert Einstein
+C: :Benjamin Franklin
+D: Marie Curie
+D: May 18                                                                     //Correct Answer
+Q.8 What type of system did Paul Nipkow , John                                // Question 8
+    Baird and Charles Jenkins all invent?
+A: Television
+B: Telephone
+C: Early Earning
+D: Electricity
+A: Television                                                                 //Correct Answer
+Q.8 Which apsara wanted marry Arjuna when he was                              // Question 8
+    in Indraloka?
+A: Urvashi
+B: Rambha
+C: Menaka
+D: Tilottama
+A: Urvashi                                                                    //Correct Answer
+Q.8 Which city in India will host 'International                              // Question 8
+    Puppet festival' from October 26 ?
+A: Kolkata
+B: Mumbai
+C: Hyderabad
+D: Bengaralu
+A: Kolkata                                                                    //Correct Answer
