@@ -1,1 +1,111 @@
+Q.1 Which is the largest passenger airliner in                                 // Question 1 
+    the world ?
+A: Beoing 767
+B: Ilyushin IL-96
+C: Airbus A380
+D: Beoing 787
+C: Airbus A380                                                                //Correct Answer 
+Q.1 Which mountain was formerly known as Peak                                 // Question 1 
+    15?
+A: Mount Rushmore
+B: Kanchenjunga
+C: Mount Everest
+D: K2
+C: Mount Everest
+Q.2
 
+A:
+B:
+C:
+D:
+
+Q.2
+
+A:
+B:
+C:
+D:
+
+Q.3
+
+A:
+B:
+C:
+D:
+
+Q.3
+
+A:
+B:
+C:
+D:
+
+Q.4
+
+A:
+B:
+C:
+D:
+
+Q.4
+
+A:
+B:
+C:
+D:
+
+Q.5
+
+A:
+B:
+C:
+D:
+
+Q.5
+
+A:
+B:
+C:
+D:
+
+Q.6
+
+A:
+B:
+C:
+D:
+
+Q.6
+
+A:
+B:
+C:
+D:
+
+Q.7
+
+A:
+B:
+C:
+D:
+
+Q.7
+
+A:
+B:
+C:
+D:
+
+Q.8
+
+A:
+B:
+C:
+D:
+
+Q.8
+
+A:
+B:
+C:
+D:
