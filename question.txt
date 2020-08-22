@@ -137,14 +137,14 @@ A: Sebaatin Vettel
 B: Nico Rosberg
 C: Valtteri Bottas
 D: Lewis Hamilton
-D: May 18                                                                     //Correct Answer
+D: Lewis Hamilton                                                             //Correct Answer
 Q.7 Which scientist discovered the radioactive                                // Question 7
     active radium ?
 A: Isaac Newton
 B: Albert Einstein
-C: :Benjamin Franklin
+C: Benjamin Franklin
 D: Marie Curie
-D: May 18                                                                     //Correct Answer
+D: Marie Curie                                                                //Correct Answer
 Q.8 What type of system did Paul Nipkow , John                                // Question 8
     Baird and Charles Jenkins all invent?
 A: Television
