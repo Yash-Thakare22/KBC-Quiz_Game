@@ -19,14 +19,14 @@ int g=0,x=0,y=0,z=0,s;
   void loser();
   void lifeline();
   int correctanswer();
-  void q1();
-  void q2();
-  void q3();
-  void q4();
-  void q5();
-  void q6();
-  void q7();
-  void q8();
+  void question_1();
+  void question_2();
+  void question_3();
+  void question_4();
+  void question_5();
+  void question_6();
+  void question_7();
+  void question_8();
   void structure();
   void optionA(int ans);
   void optionB(int ans);
@@ -53,7 +53,7 @@ int g=0,x=0,y=0,z=0,s;
 	cleardevice();
 	logo();
 	cleardevice();
-	q1();
+	question_1();
   }
    void structure()
    {
@@ -67,6 +67,7 @@ int g=0,x=0,y=0,z=0,s;
    line(510,250,540,280);
    line(100,280,130,310);
    line(510,310,540,280);
+   
    //option box
    //a
    line(130,340,280,340);
@@ -76,6 +77,7 @@ int g=0,x=0,y=0,z=0,s;
    line(280,340,310,355);
    line(280,370,310,355);
    line(100,355,0,355);
+   
    //b
    line(360,340,510,340);
    line(360,370,510,370);
@@ -85,6 +87,7 @@ int g=0,x=0,y=0,z=0,s;
    line(510,370,540,355);
    line(540,355,1000,355);
    line(310,355,330,355);
+   
    //c
    line(130,380,280,380);
    line(130,410,280,410);
@@ -93,6 +96,7 @@ int g=0,x=0,y=0,z=0,s;
    line(100,395,130,410);
    line(280,410,310,395);
    line(0,395,100,395);
+	   
    //d
    line(360,380,510,380);
    line(360,410,510,410);
@@ -102,6 +106,7 @@ int g=0,x=0,y=0,z=0,s;
    line(510,410,540,395);
    line(540,395,1000,395);
    line(310,395,330,395);
+	   
    //status box
    line(450,10,630,10);
    line(450,10,450,30);
@@ -128,16 +133,19 @@ int g=0,x=0,y=0,z=0,s;
   line(520,170,560,170);
   line(520,170,520,150);
   line(560,170,560,150);
+  
   // life line box
   rectangle(465,190,615,220);
   ellipse(540,205,0,360,20,10);
   ellipse(495,205,0,360,20,10);
   ellipse(585,205,0,360,20,10);
+  
   //audience pole
   circle(585,200,5);
   circle(575,203,5);
    circle(595,203,5);
    ellipse(585,215,0,180,5,10);
+   
    //expert advice
    circle(495,200,5);
    ellipse(495,215,0,180,5,10);
@@ -146,27 +154,27 @@ int g=0,x=0,y=0,z=0,s;
    outtextxy(525,160,"1,000");
    outtextxy(516,140,"10,000");
    outtextxy(508,120,"1,00,000");
-      outtextxy(505,100,"10,00,000");
-      outtextxy(503,80,"1,00,00,000");
-      settextstyle(7,0,1);
-      outtextxy(481,50,"3,00,00,000");
-      outtextxy(483,30,"5,00,00,000");
-      outtextxy(483,8,"7,00,00,000");
-      settextstyle(2,0,4);
-      rectangle(170,10,445,165);
-      circle(310,88,60);
-      circle(310,88,50);
-      setfillstyle(9,YELLOW);
-      floodfill(310,69,getmaxcolor());
-      setfillstyle(4,GREEN);
-      floodfill(310,29,getmaxcolor());
-      setcolor(RED);
-      settextstyle(8,0,5);
-      outtextxy(270,60,"KBC");
-      setcolor(RED);
-      setcolor(WHITE);
-     }
-     void q1()
+   outtextxy(505,100,"10,00,000");
+   outtextxy(503,80,"1,00,00,000");
+   settextstyle(7,0,1);
+   outtextxy(481,50,"3,00,00,000");
+   outtextxy(483,30,"5,00,00,000");
+   outtextxy(483,8,"7,00,00,000");
+   settextstyle(2,0,4);
+   rectangle(170,10,445,165);
+   circle(310,88,60);
+   circle(310,88,50);
+   setfillstyle(9,YELLOW);
+   floodfill(310,69,getmaxcolor());
+   setfillstyle(4,GREEN);
+   floodfill(310,29,getmaxcolor());
+   setcolor(RED);
+   settextstyle(8,0,5);
+   outtextxy(270,60,"KBC");
+   setcolor(RED);
+   setcolor(WHITE);
+   }
+     void question_1()
      {
 	int ans;
 	int r=0;
@@ -178,7 +186,7 @@ int g=0,x=0,y=0,z=0,s;
 	setfillstyle(SOLID_FILL,GREEN);
 	floodfill(540,154,getmaxcolor());
 	settextstyle(2,0,5);
-	r=rand()%2;
+	r=rand()%3;
 	switch(r)
 	{
 		case 0:s=0;
@@ -196,6 +204,13 @@ int g=0,x=0,y=0,z=0,s;
 			outtextxy(130,383,y[s+3].a);
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
+		case 2:s=14;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
 
 		}
 		g++;
@@ -204,7 +219,7 @@ int g=0,x=0,y=0,z=0,s;
 		if(ans==3)
 		{
 			clearviewport();
-			q2();
+			question_2();
 		}
 		else
 		{
@@ -213,13 +228,13 @@ int g=0,x=0,y=0,z=0,s;
 
 	    }
 
-     void q2()
+     void question_2()
      {
 	int ans;
 	int r=0;
 	kbc y[20];
 	FILE *f;
-	f=fopen("abc.txt","r");
+	f=fopen("question.txt","r");
 	fread(y,sizeof(y),1,f);
 
 	setfillstyle(SOLID_FILL,0);
@@ -232,10 +247,10 @@ int g=0,x=0,y=0,z=0,s;
 	setfillstyle(SOLID_FILL,GREEN);
 	floodfill(540,154,getmaxcolor());
 	settextstyle(2,0,5);
-	r=rand()%2;
+	r=rand()%3;
 	switch(r)
 	{
-		case 0:s=14;
+		case 0:s=21;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a );
 			outtextxy(130,343,y[s+2].a);
@@ -243,7 +258,14 @@ int g=0,x=0,y=0,z=0,s;
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
 			break;
-		case 1:s=21;
+		case 1:s=28;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+		case 2:s=35;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a);
 			outtextxy(130,343,y[s+2].a);
@@ -259,17 +281,17 @@ int g=0,x=0,y=0,z=0,s;
 		if(ans==2)
 		{
 			clearviewport();
-			q3();
+			question_3();
 		}
 
 	    }
-     void q3()
+     void question_3()
      {
      int ans;
      int r=0;
      kbc y[20];
 	FILE *f;
-	f=fopen("abc.txt","r");
+	f=fopen("question.txt","r");
 	fread(y,sizeof(y),1,f);
 
 	setfillstyle(SOLID_FILL,0);
@@ -282,10 +304,10 @@ int g=0,x=0,y=0,z=0,s;
 	setfillstyle(SOLID_FILL,GREEN);
 	floodfill(540,154,getmaxcolor());
 	settextstyle(2,0,5);
-	r=rand()%2;
+	r=rand()%3;
 	switch(r)
 	{
-		case 0:s=28;
+		case 0:s=42;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a );
 			outtextxy(130,343,y[s+2].a);
@@ -293,13 +315,21 @@ int g=0,x=0,y=0,z=0,s;
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
 			break;
-		case 1:s=35;
+		case 1:s=49;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a);
 			outtextxy(130,343,y[s+2].a);
 			outtextxy(130,383,y[s+3].a);
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
+		case 2:s=56;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+
 
 		}
 		g++;
@@ -308,11 +338,11 @@ int g=0,x=0,y=0,z=0,s;
 		if(ans==1)
 		{
 			clearviewport();
-			q4();
+			question_4();
 		}
 		}
 
-     void q4()
+     void question_4()
      {
 	int ans;
 	int r=0;
@@ -331,10 +361,10 @@ int g=0,x=0,y=0,z=0,s;
 	setfillstyle(SOLID_FILL,GREEN);
 	floodfill(540,94,getmaxcolor());
 	settextstyle(2,0,5);
-	r=rand()%2;
+	r=rand()%3;
 	switch(r)
 	{
-		case 0:s=42;
+		case 0:s=63;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a );
 			outtextxy(130,343,y[s+2].a);
@@ -342,7 +372,14 @@ int g=0,x=0,y=0,z=0,s;
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
 			break;
-		case 1:s=49;
+		case 1:s=70;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+		case 2:s=77;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a);
 			outtextxy(130,343,y[s+2].a);
@@ -359,16 +396,16 @@ int g=0,x=0,y=0,z=0,s;
 		if(ans==3)
 		{
 			clearviewport();
-			q5();
+			question_5();
 		}
 	    }
-     void q5()
+     void question_5()
      {
 	int ans;
 	int r=0;
 	kbc y[20];
 	FILE *f;
-	f=fopen("abc.txt","r");
+	f=fopen("question.txt","r");
 	fread(y,sizeof(y),1,f);
 
 	setfillstyle(SOLID_FILL,0);
@@ -381,107 +418,7 @@ int g=0,x=0,y=0,z=0,s;
 	setfillstyle(SOLID_FILL,GREEN);
 	floodfill(540,94,getmaxcolor());
 	settextstyle(2,0,5);
-	r=rand()%2;
-	switch(r)
-	{
-		case 0:s=56;
-			outtextxy(130,255,y[s].a);
-			outtextxy(130,280,y[s+1].a );
-			outtextxy(130,343,y[s+2].a);
-			outtextxy(130,383,y[s+3].a);
-			outtextxy(360,345,y[s+4].a);
-			outtextxy(360,383,y[s+5].a);
-			break;
-		case 1:s=63;
-			outtextxy(130,255,y[s].a);
-			outtextxy(130,280,y[s+1].a);
-			outtextxy(130,343,y[s+2].a);
-			outtextxy(130,383,y[s+3].a);
-			outtextxy(360,345,y[s+4].a);
-			outtextxy(360,383,y[s+5].a);
-
-
-		}
-		g++;
-		ans=selectfunction();
-		optionD(ans);
-		if(ans==4)
-		{
-			clearviewport();
-			q6();
-		}
-	    }
-
-  void q6()
-     {
-	int ans;
-	int r=0;
-	kbc y[20];
-	FILE *f;
-	f=fopen("abc.txt","r");
-	fread(y,sizeof(y),1,f);
-
-	setfillstyle(SOLID_FILL,0);
-	bar(173,178,442,232);
-	settextstyle(0,0,2);
-	outtextxy(190,190,"CORRECT ANSWER");
-	getch();
-	cleardevice();
-	structure();
-	setfillstyle(SOLID_FILL,GREEN);
-	floodfill(540,154,getmaxcolor());
-	settextstyle(2,0,5);
-	r=rand()%2;
-	switch(r)
-	{
-		case 0:s=70;
-			outtextxy(130,255,y[s].a);
-			outtextxy(130,280,y[s+1].a );
-			outtextxy(130,343,y[s+2].a);
-			outtextxy(130,383,y[s+3].a);
-			outtextxy(360,345,y[s+4].a);
-			outtextxy(360,383,y[s+5].a);
-			break;
-		case 1:s=77;
-			outtextxy(130,255,y[s].a);
-			outtextxy(130,280,y[s+1].a);
-			outtextxy(130,343,y[s+2].a);
-			outtextxy(130,383,y[s+3].a);
-			outtextxy(360,345,y[s+4].a);
-			outtextxy(360,383,y[s+5].a);
-
-
-		}
-		g++;
-		ans=selectfunction();
-		optionB(ans);
-		if(ans==2)
-		{
-			clearviewport();
-			q7();
-		}
-	}
-     void q7()
-     {
-
-	int ans;
-	int r=0;
-	kbc y[20];
-	FILE *f;
-	f=fopen("abc.txt","r");
-	fread(y,sizeof(y),1,f);
-
-	setfillstyle(SOLID_FILL,0);
-	bar(173,178,442,232);
-	settextstyle(0,0,2);
-	outtextxy(190,190,"CORRECT ANSWER");
-	getch();
-	cleardevice();
-	structure();
-	setfillstyle(SOLID_FILL,GREEN);
-	floodfill(540,154,getmaxcolor());
-	settextstyle(2,0,5);
-	r=rand()%2;
+	r=rand()%3;
 	switch(r)
 	{
 		case 0:s=84;
@@ -499,6 +436,13 @@ int g=0,x=0,y=0,z=0,s;
 			outtextxy(130,383,y[s+3].a);
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
+		case 2:s=98;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
 
 
 		}
@@ -508,18 +452,132 @@ int g=0,x=0,y=0,z=0,s;
 		if(ans==4)
 		{
 			clearviewport();
-			q8();
+			question_6();
+		}
+	    }
+
+  void question_6()
+     {
+	int ans;
+	int r=0;
+	kbc y[20];
+	FILE *f;
+	f=fopen("question.txt","r");
+	fread(y,sizeof(y),1,f);
+
+	setfillstyle(SOLID_FILL,0);
+	bar(173,178,442,232);
+	settextstyle(0,0,2);
+	outtextxy(190,190,"CORRECT ANSWER");
+	getch();
+	cleardevice();
+	structure();
+	setfillstyle(SOLID_FILL,GREEN);
+	floodfill(540,154,getmaxcolor());
+	settextstyle(2,0,5);
+	r=rand()%3;
+	switch(r)
+	{
+		case 0:s=105;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a );
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+			break;
+		case 1:s=112;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+		case 2:s=119;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+
+
+		}
+		g++;
+		ans=selectfunction();
+		optionB(ans);
+		if(ans==2)
+		{
+			clearviewport();
+			question_7();
+		}
+	}
+     void question_7()
+     {
+
+	int ans;
+	int r=0;
+	kbc y[20];
+	FILE *f;
+	f=fopen("question.txt","r");
+	fread(y,sizeof(y),1,f);
+
+	setfillstyle(SOLID_FILL,0);
+	bar(173,178,442,232);
+	settextstyle(0,0,2);
+	outtextxy(190,190,"CORRECT ANSWER");
+	getch();
+	cleardevice();
+	structure();
+	setfillstyle(SOLID_FILL,GREEN);
+	floodfill(540,154,getmaxcolor());
+	settextstyle(2,0,5);
+	r=rand()%3;
+	switch(r)
+	{
+		case 0:s=126;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a );
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+			break;
+		case 1:s=133;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+		case 2:s=140;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+
+
+		}
+		g++;
+		ans=selectfunction();
+		optionD(ans);
+		if(ans==4)
+		{
+			clearviewport();
+			question_8();
 		}
 
 	    }
-	     void q8()
+     void question_8()
      {
 	int ans;
 	int r=0;
 
 	kbc y[20];
 	FILE *f;
-	f=fopen("abc.txt","r");
+	f=fopen("question.txt","r");
 	fread(y,sizeof(y),1,f);
 	setfillstyle(SOLID_FILL,0);
 	bar(173,178,442,232);
@@ -531,10 +589,10 @@ int g=0,x=0,y=0,z=0,s;
 	setfillstyle(SOLID_FILL,GREEN);
 	floodfill(540,154,getmaxcolor());
 	settextstyle(2,0,5);
-	r=rand()%2;
+	r=rand()%3;
 	switch(r)
 	{
-		case 0:s=98;
+		case 0:s=147;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a );
 			outtextxy(130,343,y[s+2].a);
@@ -542,7 +600,14 @@ int g=0,x=0,y=0,z=0,s;
 			outtextxy(360,345,y[s+4].a);
 			outtextxy(360,383,y[s+5].a);
 			break;
-		case 1:s=105;
+		case 1:s=154;
+			outtextxy(130,255,y[s].a);
+			outtextxy(130,280,y[s+1].a);
+			outtextxy(130,343,y[s+2].a);
+			outtextxy(130,383,y[s+3].a);
+			outtextxy(360,345,y[s+4].a);
+			outtextxy(360,383,y[s+5].a);
+		case 2:s=161;
 			outtextxy(130,255,y[s].a);
 			outtextxy(130,280,y[s+1].a);
 			outtextxy(130,343,y[s+2].a);
